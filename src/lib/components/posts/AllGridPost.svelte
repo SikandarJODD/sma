@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fly } from "svelte/transition";
+  import { fade, fly } from "svelte/transition";
   import Post from "./Post.svelte";
 
   let { posts } = $props<{

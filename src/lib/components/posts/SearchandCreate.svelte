@@ -1,18 +1,29 @@
-<script>
+<script lang="ts">
+  import { filterPosts, social_posts } from "$lib/index.svelte";
   import { fly } from "svelte/transition";
 
   let loaded = $state(false);
   $effect(() => {
     loaded = true;
   });
+  let value = $state("");
+  let changeValue = () => {
+    let res = social_posts.filter((post) => {
+      let pstring = String(post.title).toLowerCase();
+      return pstring.includes(value.toLowerCase());
+    });
+    filterPosts[0] = res;
+  };
 </script>
 
 {#if loaded}
-  <div class="px-20 mt-4" in:fly={{ y: -30, duration: 700 }}>
+  <div class="px-2 md:px-20 mt-4" in:fly={{ y: -30, duration: 700 }}>
     <div class="flex justify-between">
       <div>
         <input
           type="text"
+          bind:value
+          oninput={changeValue}
           placeholder="Search..."
           class="input input-bordered w-full sm:w-64"
         />

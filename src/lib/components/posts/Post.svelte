@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { fade } from "svelte/transition";
+
   let { item } = $props<{
     item: {
       created_at: string;
