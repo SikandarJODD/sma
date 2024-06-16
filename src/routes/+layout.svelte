@@ -7,7 +7,7 @@
 
 <Navbar />
 {#key data.url}
-  <div in:fly={{ duration: 400 }}>
+  <div in:fly>
     <slot />
   </div>
 {/key}
