@@ -4,7 +4,7 @@
 
   // All the Posts will be render here
   let { data } = $props();
-  let posts: any = $derived(data.posts);
+  let posts: any = data.posts;
 </script>
 
 <!-- SEO Heading -->

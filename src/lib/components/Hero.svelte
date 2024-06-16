@@ -1,4 +1,4 @@
-<div class="hero h-[70vh] md:min-h-[90vh] bg-base-200">
+<div class="hero h-[70vh] md:min-h-[90vh] bg_color">
   <div class="hero-content text-center">
     <div class="max-w-lg">
       <h1 class="text-5xl font-bold text-white">Social-Site for Buddy</h1>
@@ -10,7 +10,7 @@
         Build for Buddy
       </div>
 
-      <div>
+      <div class="md:mt-2 flex justify-center gap-2">
         <a
           href="https://github.com/SikandarJODD/sma"
           target="_blank"
@@ -32,7 +32,40 @@
             /><path d="M9 18c-4.51 2-5-2-7-2" /></svg
           >Github</a
         >
+        <a href="/posts" class="btn btn-primary btn-outline">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-image"
+            ><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /><circle
+              cx="9"
+              cy="9"
+              r="2"
+            /><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" /></svg
+          >Posts</a
+        >
       </div>
     </div>
   </div>
 </div>
+
+<style>
+  @media (min-width: 500px) {
+    .bg_color {
+      background: rgba(1, 6, 42, 0.89);
+      background: radial-gradient(
+        circle,
+        rgba(1, 6, 42, 0.629) 0%,
+        rgba(19, 14, 15, 1) 52%,
+        rgba(19, 14, 15, 1) 100%
+      );
+    }
+  }
+</style>

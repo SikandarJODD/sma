@@ -2,7 +2,7 @@
   //   let { navs } = $props<{ navs: { name: string; url: string }[] }>();
 </script>
 
-<div class="navbar bg-base-100 md:px-20">
+<div class="navbar bg-base-100 md:px-20 md:border-b border-gray-700">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
