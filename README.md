@@ -12,8 +12,6 @@ Build for my friend to learn **Sveltekit** and **Supabase**.
 
 #### [Excalidraw Design](https://excalidraw.com/#json=_ZOPH0eE6ul5EoYyOfS59,0Zeh0XcwvncowgUPk8zlsQ)
 
-<iframe src='https://excalidraw.com/#json=_ZOPH0eE6ul5EoYyOfS59,0Zeh0XcwvncowgUPk8zlsQ' height='300' width='700' ></iframe>
-
 ### Features
 
 - Create Users and Posts

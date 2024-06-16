@@ -1,7 +1,7 @@
-<div class="hero min-h-screen bg-base-200">
+<div class="hero h-[70vh] md:min-h-[90vh] bg-base-200">
   <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold">Social-Site</h1>
+    <div class="max-w-lg">
+      <h1 class="text-5xl font-bold text-white">Social-Site for Buddy</h1>
       <p class="pt-6">
         Simple Social Media Site with SvelteKit and Supabase, includes CRUD
         Operations for Post

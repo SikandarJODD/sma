@@ -57,7 +57,7 @@
     </ul>
   </div>
   <div class="navbar-end gap-1">
-    <a class="btn btn-sm" href="/">Register</a>
+    <a class="btn btn-sm hidden md:flex" href="/">Register</a>
     <a class="btn btn-sm btn-outline" href="/">Login</a>
   </div>
 </div>
