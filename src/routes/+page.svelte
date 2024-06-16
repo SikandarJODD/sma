@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Hero from "$lib/components/Hero.svelte";
+</script>
+
+<!-- SEO  -->
+<svelte:head>
+  <title>Social Site</title>
+  <meta name="description" content="Social Site for Users to Posts Images" />
+</svelte:head>
+
+<!--  Hero page -->
+<Hero />
